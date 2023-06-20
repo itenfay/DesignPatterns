@@ -66,6 +66,10 @@ public protocol IAbstractFactory {
 /// 对子类进行约束，统一标准
 public class AbstractFactory: IAbstractFactory {
     
+    init() {
+        assert(type(of: self) != AbstractFactory.self, "Abstract Factory")
+    }
+    
     public func getColor(_ color: String) -> Color? {
         fatalError("Don't impl this method.")
     }
@@ -94,10 +98,6 @@ public class XShapeFactory: AbstractFactory {
 }
 
 public class XColorFactory: AbstractFactory {
-    
-    public override init() {
-        
-    }
     
     public override func getColor(_ color: String) -> Color? {
         switch color {
@@ -154,3 +154,11 @@ public class AbstractFactoryPatternDemo {
     }
     
 }
+
+//Output result:
+//RedColor.fill()
+//GreenColor.fill()
+//BlueColor.fill()
+//Rectangle.draw()
+//Circle.draw()
+//Square.draw()
