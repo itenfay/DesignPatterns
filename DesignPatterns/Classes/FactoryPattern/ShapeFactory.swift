@@ -94,3 +94,8 @@ public class FactoryPatternDemo {
     }
     
 }
+
+//Output result:
+//Rectangle.draw()
+//Square.draw()
+//Circle.draw()
