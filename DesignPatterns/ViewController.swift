@@ -15,9 +15,9 @@ class ViewController: UIViewController {
         
         FactoryPatternDemo().exec()
         AbstractFactoryPatternDemo().exec()
-        
+        BuilderPatternDemo().exec()
+        AdaptorPatternDemo().exec()
+        BridgePatternDemo().exec()
     }
     
-    
 }
-

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792C395D2A41845D008D31EF /* MediaPlayerAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792C395C2A41845D008D31EF /* MediaPlayerAdaptor.swift */; };
+		792C39602A41994B008D31EF /* ShapeBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792C395F2A41994B008D31EF /* ShapeBridge.swift */; };
+		792C39632A41A662008D31EF /* CriteriaPatternSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792C39622A41A662008D31EF /* CriteriaPatternSample.swift */; };
+		79F1409B2A24A96D005667DC /* MealBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F1409A2A24A96D005667DC /* MealBuilder.swift */; };
 		79FA5C3E2A1B574B00FC96AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA5C3D2A1B574B00FC96AB /* AppDelegate.swift */; };
 		79FA5C422A1B574B00FC96AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA5C412A1B574B00FC96AB /* ViewController.swift */; };
 		79FA5C452A1B574B00FC96AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FA5C432A1B574B00FC96AB /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		792C395C2A41845D008D31EF /* MediaPlayerAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerAdaptor.swift; sourceTree = "<group>"; };
+		792C395F2A41994B008D31EF /* ShapeBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBridge.swift; sourceTree = "<group>"; };
+		792C39622A41A662008D31EF /* CriteriaPatternSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriteriaPatternSample.swift; sourceTree = "<group>"; };
+		79F1409A2A24A96D005667DC /* MealBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBuilder.swift; sourceTree = "<group>"; };
 		79FA5C3A2A1B574B00FC96AB /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FA5C3D2A1B574B00FC96AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79FA5C412A1B574B00FC96AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +47,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		792C395B2A4181DE008D31EF /* AdaptorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				792C395C2A41845D008D31EF /* MediaPlayerAdaptor.swift */,
+			);
+			path = AdaptorPattern;
+			sourceTree = "<group>";
+		};
+		792C395E2A419914008D31EF /* BridgePattern */ = {
+			isa = PBXGroup;
+			children = (
+				792C395F2A41994B008D31EF /* ShapeBridge.swift */,
+			);
+			path = BridgePattern;
+			sourceTree = "<group>";
+		};
+		792C39612A41A5CF008D31EF /* FilterPattern */ = {
+			isa = PBXGroup;
+			children = (
+				792C39622A41A662008D31EF /* CriteriaPatternSample.swift */,
+			);
+			path = FilterPattern;
+			sourceTree = "<group>";
+		};
+		79F140992A24A8FE005667DC /* BuilderPattern */ = {
+			isa = PBXGroup;
+			children = (
+				79F1409A2A24A96D005667DC /* MealBuilder.swift */,
+			);
+			path = BuilderPattern;
+			sourceTree = "<group>";
+		};
 		79FA5C312A1B574B00FC96AB = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +112,10 @@
 		79FA5C542A1B5A9F00FC96AB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				792C39612A41A5CF008D31EF /* FilterPattern */,
+				792C395E2A419914008D31EF /* BridgePattern */,
+				792C395B2A4181DE008D31EF /* AdaptorPattern */,
+				79F140992A24A8FE005667DC /* BuilderPattern */,
 				79FA5C552A1B5A9F00FC96AB /* FactoryPattern */,
 			);
 			path = Classes;
@@ -158,9 +202,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FA5C592A1B737200FC96AB /* AbstractFactory.swift in Sources */,
+				792C39632A41A662008D31EF /* CriteriaPatternSample.swift in Sources */,
+				79F1409B2A24A96D005667DC /* MealBuilder.swift in Sources */,
+				792C39602A41994B008D31EF /* ShapeBridge.swift in Sources */,
 				79FA5C422A1B574B00FC96AB /* ViewController.swift in Sources */,
 				79FA5C3E2A1B574B00FC96AB /* AppDelegate.swift in Sources */,
 				79FA5C572A1B5D5E00FC96AB /* ShapeFactory.swift in Sources */,
+				792C395D2A41845D008D31EF /* MediaPlayerAdaptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
