@@ -134,7 +134,7 @@ public class XFactoryProducer {
 /// Step6: 使用 XFactoryProducer 来获取 AbstractFactory，通过传递类型信息来获取实体类的对象。
 public class AbstractFactoryPatternDemo {
     
-    public func exec() {
+    public static func main() {
         let colorFactory = XFactoryProducer.getFactory(.color)
         
         let redColor = colorFactory.getColor("Red")

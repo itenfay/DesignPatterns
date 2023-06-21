@@ -144,7 +144,7 @@ public class MediaPlayer: IMediaPlayer {
 /// 步骤 5: 使用 AudioPlayer 来播放不同类型的音频格式。
 public struct AdaptorPatternDemo {
     
-    public func exec() {
+    public static func main() {
         let player = MediaPlayer()
         player.play(mediaType: "mp3", fileName: "beyond the horizon.mp3")
         player.play(mediaType: "mp4", fileName: "alone.mp4")

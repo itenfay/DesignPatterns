@@ -12,12 +12,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        
-        FactoryPatternDemo().exec()
-        AbstractFactoryPatternDemo().exec()
-        BuilderPatternDemo().exec()
-        AdaptorPatternDemo().exec()
-        BridgePatternDemo().exec()
+        execute()
+    }
+    
+    func execute() {
+        FactoryPatternDemo.main()
+        AbstractFactoryPatternDemo.main()
+        BuilderPatternDemo.main()
+        AdaptorPatternDemo.main()
+        BridgePatternDemo.main()
+        CriteriaPatternDemo.main()
+        DecoratorPatternDemo.main()
+        FacadePatternDemo.main()
     }
     
 }

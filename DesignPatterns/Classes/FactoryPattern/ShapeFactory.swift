@@ -77,7 +77,7 @@ public class ShapeFactory {
 /// Step4: 创建一个工厂，生成基于给定信息的实体类的对象。
 public class FactoryPatternDemo {
     
-    public func exec() {
+    public static func main() {
         let shapeFactory = ShapeFactory()
         
         // 获取 Rectangle 的对象，并调用它的 draw 方法

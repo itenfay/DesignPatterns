@@ -93,7 +93,7 @@ public class BdCircle: AbstractShape {
 /// 步骤 5: 使用 Shape 和 DrawAPI 类画出不同颜色的圆。
 public struct BridgePatternDemo {
     
-    public func exec() {
+    public static func main() {
         let redCircle: AbstractShape = BdCircle(x: 100, y: 50, radius: 60, drawAPI: RedCircle())
         redCircle.draw()
         let greedCircle: AbstractShape = BdCircle(x: 200, y: 200, radius: 100, drawAPI: GreenCircle())

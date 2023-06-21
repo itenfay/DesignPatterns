@@ -190,7 +190,7 @@ public class MealBuilder {
 /// Step7: BuiderPatternDemo 使用 MealBuilder 来演示建造者模式（Builder Pattern）。
 public class BuilderPatternDemo {
     
-    public func exec() {
+    public static func main() {
         let vegMeal = MealBuilder.prepareVegMeal()
         print("vegMeal: \(vegMeal)")
         vegMeal.showItems()
