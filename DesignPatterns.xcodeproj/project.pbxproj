@@ -26,6 +26,7 @@
 		792C395C2A41845D008D31EF /* MediaPlayerAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerAdaptor.swift; sourceTree = "<group>"; };
 		792C395F2A41994B008D31EF /* ShapeBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBridge.swift; sourceTree = "<group>"; };
 		792C39622A41A662008D31EF /* CriteriaPatternSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriteriaPatternSample.swift; sourceTree = "<group>"; };
+		7943A1502A4AEA72009B3617 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		7974D1972A42DD5C0054753F /* DecoratorPatternSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPatternSample.swift; sourceTree = "<group>"; };
 		7974D19A2A42E6CA0054753F /* FacadePatternSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePatternSample.swift; sourceTree = "<group>"; };
 		79F1409A2A24A96D005667DC /* MealBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBuilder.swift; sourceTree = "<group>"; };
@@ -75,6 +76,14 @@
 			path = FilterPattern;
 			sourceTree = "<group>";
 		};
+		7943A14F2A4AEA56009B3617 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				7943A1502A4AEA72009B3617 /* README.md */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
 		7974D1962A42DD1C0054753F /* DecoratorPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +111,7 @@
 		79FA5C312A1B574B00FC96AB = {
 			isa = PBXGroup;
 			children = (
+				7943A14F2A4AEA56009B3617 /* Document */,
 				79FA5C3C2A1B574B00FC96AB /* DesignPatterns */,
 				79FA5C3B2A1B574B00FC96AB /* Products */,
 			);
