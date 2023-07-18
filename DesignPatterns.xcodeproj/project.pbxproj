@@ -29,6 +29,14 @@
 		7943A1502A4AEA72009B3617 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		7974D1972A42DD5C0054753F /* DecoratorPatternSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPatternSample.swift; sourceTree = "<group>"; };
 		7974D19A2A42E6CA0054753F /* FacadePatternSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePatternSample.swift; sourceTree = "<group>"; };
+		799B09512A6690C10074EB71 /* FilterPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FilterPattern.md; sourceTree = "<group>"; };
+		799B09522A6690C10074EB71 /* FactoryPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FactoryPattern.md; sourceTree = "<group>"; };
+		799B09532A6690C10074EB71 /* FacadePattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FacadePattern.md; sourceTree = "<group>"; };
+		799B09542A6690C10074EB71 /* BridgePattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BridgePattern.md; sourceTree = "<group>"; };
+		799B09552A6690C10074EB71 /* BuilderPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BuilderPattern.md; sourceTree = "<group>"; };
+		799B09562A6690C10074EB71 /* AbstractFactoryPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AbstractFactoryPattern.md; sourceTree = "<group>"; };
+		799B09572A6690C10074EB71 /* DecoratorPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DecoratorPattern.md; sourceTree = "<group>"; };
+		799B09582A6690C10074EB71 /* AdaptorPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AdaptorPattern.md; sourceTree = "<group>"; };
 		79F1409A2A24A96D005667DC /* MealBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBuilder.swift; sourceTree = "<group>"; };
 		79FA5C3A2A1B574B00FC96AB /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FA5C3D2A1B574B00FC96AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +87,14 @@
 		7943A14F2A4AEA56009B3617 /* Document */ = {
 			isa = PBXGroup;
 			children = (
-				7943A1502A4AEA72009B3617 /* README.md */,
+				799B09562A6690C10074EB71 /* AbstractFactoryPattern.md */,
+				799B09582A6690C10074EB71 /* AdaptorPattern.md */,
+				799B09542A6690C10074EB71 /* BridgePattern.md */,
+				799B09552A6690C10074EB71 /* BuilderPattern.md */,
+				799B09572A6690C10074EB71 /* DecoratorPattern.md */,
+				799B09532A6690C10074EB71 /* FacadePattern.md */,
+				799B09522A6690C10074EB71 /* FactoryPattern.md */,
+				799B09512A6690C10074EB71 /* FilterPattern.md */,
 			);
 			path = Document;
 			sourceTree = "<group>";
@@ -111,9 +126,10 @@
 		79FA5C312A1B574B00FC96AB = {
 			isa = PBXGroup;
 			children = (
-				7943A14F2A4AEA56009B3617 /* Document */,
 				79FA5C3C2A1B574B00FC96AB /* DesignPatterns */,
+				7943A14F2A4AEA56009B3617 /* Document */,
 				79FA5C3B2A1B574B00FC96AB /* Products */,
+				7943A1502A4AEA72009B3617 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
