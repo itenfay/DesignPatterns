@@ -48,6 +48,10 @@ class ViewController: UIViewController {
         print("Facade Pattern:")
         FacadePatternDemo.main()
         print("===================================\n")
+        
+        print("Composite Pattern:")
+        CompositePatternDemo.main()
+        print("===================================\n")
     }
     
 }

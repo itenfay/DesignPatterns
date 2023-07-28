@@ -12,6 +12,7 @@
 		792C39632A41A662008D31EF /* CriteriaPatternSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792C39622A41A662008D31EF /* CriteriaPatternSample.swift */; };
 		7974D1982A42DD5C0054753F /* DecoratorPatternSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974D1972A42DD5C0054753F /* DecoratorPatternSample.swift */; };
 		7974D19B2A42E6CA0054753F /* FacadePatternSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974D19A2A42E6CA0054753F /* FacadePatternSample.swift */; };
+		799B095C2A6696FE0074EB71 /* CompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B095B2A6696FE0074EB71 /* CompositePattern.swift */; };
 		79F1409B2A24A96D005667DC /* MealBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F1409A2A24A96D005667DC /* MealBuilder.swift */; };
 		79FA5C3E2A1B574B00FC96AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA5C3D2A1B574B00FC96AB /* AppDelegate.swift */; };
 		79FA5C422A1B574B00FC96AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA5C412A1B574B00FC96AB /* ViewController.swift */; };
@@ -37,6 +38,8 @@
 		799B09562A6690C10074EB71 /* AbstractFactoryPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AbstractFactoryPattern.md; sourceTree = "<group>"; };
 		799B09572A6690C10074EB71 /* DecoratorPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DecoratorPattern.md; sourceTree = "<group>"; };
 		799B09582A6690C10074EB71 /* AdaptorPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AdaptorPattern.md; sourceTree = "<group>"; };
+		799B09592A6696AA0074EB71 /* CompositePattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CompositePattern.md; sourceTree = "<group>"; };
+		799B095B2A6696FE0074EB71 /* CompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePattern.swift; sourceTree = "<group>"; };
 		79F1409A2A24A96D005667DC /* MealBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBuilder.swift; sourceTree = "<group>"; };
 		79FA5C3A2A1B574B00FC96AB /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FA5C3D2A1B574B00FC96AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 				799B09582A6690C10074EB71 /* AdaptorPattern.md */,
 				799B09542A6690C10074EB71 /* BridgePattern.md */,
 				799B09552A6690C10074EB71 /* BuilderPattern.md */,
+				799B09592A6696AA0074EB71 /* CompositePattern.md */,
 				799B09572A6690C10074EB71 /* DecoratorPattern.md */,
 				799B09532A6690C10074EB71 /* FacadePattern.md */,
 				799B09522A6690C10074EB71 /* FactoryPattern.md */,
@@ -113,6 +117,14 @@
 				7974D19A2A42E6CA0054753F /* FacadePatternSample.swift */,
 			);
 			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		799B095A2A6696EE0074EB71 /* CompositePattern */ = {
+			isa = PBXGroup;
+			children = (
+				799B095B2A6696FE0074EB71 /* CompositePattern.swift */,
+			);
+			path = CompositePattern;
 			sourceTree = "<group>";
 		};
 		79F140992A24A8FE005667DC /* BuilderPattern */ = {
@@ -161,6 +173,7 @@
 				792C395B2A4181DE008D31EF /* AdaptorPattern */,
 				792C395E2A419914008D31EF /* BridgePattern */,
 				79F140992A24A8FE005667DC /* BuilderPattern */,
+				799B095A2A6696EE0074EB71 /* CompositePattern */,
 				7974D1962A42DD1C0054753F /* DecoratorPattern */,
 				7974D1992A42E6AB0054753F /* FacadePattern */,
 				79FA5C552A1B5A9F00FC96AB /* FactoryPattern */,
@@ -259,6 +272,7 @@
 				79FA5C3E2A1B574B00FC96AB /* AppDelegate.swift in Sources */,
 				79FA5C572A1B5D5E00FC96AB /* ShapeFactory.swift in Sources */,
 				792C395D2A41845D008D31EF /* MediaPlayerAdaptor.swift in Sources */,
+				799B095C2A6696FE0074EB71 /* CompositePattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
